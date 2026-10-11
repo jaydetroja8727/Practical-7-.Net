@@ -1,0 +1,141 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8F0;
+    color: #333;
+}
+
+.header {
+    background-color: #FFF1E3;
+    color: #63452F;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+    .header h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+.header-subtitle {
+    margin: 8px 0 0;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 35px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(99, 69, 47, 0.10);
+}
+
+h2 {
+    color: #A66B3F;
+    margin-bottom: 25px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FFE6CC;
+    color: #63452F;
+    padding: 10px 18px;
+    margin: 8px 5px 8px 0;
+    border-radius: 5px;
+}
+
+    a:hover {
+        background-color: #F5D5B5;
+        color: #4A3020;
+    }
+
+.feedback-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 7px;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E8D8C8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea.form-control {
+    height: 100px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #FFE6CC;
+    color: #63452F;
+    border: none;
+    padding: 11px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+    .submit-btn:hover {
+        background-color: #F5D5B5;
+        color: #4A3020;
+    }
+
+.feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .feedback-table th {
+        background-color: #FFE6CC;
+        color: #63452F;
+        padding: 12px;
+        text-align: left;
+    }
+
+    .feedback-table td {
+        padding: 12px;
+        border-bottom: 1px solid #E8D8C8;
+    }
+
+    .feedback-table tr:nth-child(even) {
+        background-color: #FFFBF7;
+    }
+
+    .feedback-table tr:hover {
+        background-color: #FFF1E3;
+    }
+
+footer {
+    text-align: center;
+    background-color: #FFF1E3;
+    color: #63452F;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+.field-validation-error {
+    color: #C62828;
+    font-size: 13px;
+}
